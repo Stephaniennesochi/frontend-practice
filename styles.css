@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    gap: 290px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+.nav-links{
+    display: flex;
+    gap: 75px;
+    margin-top: 30px;
+}
+.nav-element{
+    font-size: 21px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.nav-logo{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.nav-element:hover{
+    text-decoration: underline;
+}
+.nav-logo:hover{
+    text-decoration: underline;
+}
+.arrow{
+    height: 20px;
+    width: 20px;
+}
