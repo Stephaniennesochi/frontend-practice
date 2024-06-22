@@ -190,3 +190,86 @@ footer{
     padding-top: 15px;
     padding-right: 20px;
 }
+@media (max-width:600px){
+
+}
+@media (min-width:600px){
+    
+}
+@media (min-width: 768px){
+    .navbar{
+        gap: 20px; 
+    }
+    .nav-links{
+        gap: 20px;
+        margin-top: 17px;
+    }
+    .nav-logo{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .nav-element{
+        font-size: 18px;
+    }
+    .image{
+        height: 680px;
+        width: 640px;
+        margin-right: 20%;
+        padding-top: 40px;
+    }
+    .entire-sect{
+        margin-left: 9%;
+    }
+    .footer-links{
+        margin-left: 15%;
+    }
+    .align-divs{
+        margin-left: 1%;
+    }
+    .divs{
+        height: 140px;
+    }
+}
+@media (min-width:1024px){
+    .navbar{
+        gap: 130px; 
+    }
+    .nav-links{
+        gap: 20px;
+        margin-top: 26px;
+    }
+    .nav-logo{
+        margin-left: 50px;
+    }
+    .image{
+        height: 680px;
+        width: 640px;
+        margin-right: 40%;
+    }
+    .entire-sect{
+        margin-left: 9%;
+    }
+    .footer-links{
+        margin-left: 20%;
+    }
+    .align-divs{
+        margin-left: 1%;
+    }
+}
+@media (min-width:1280px){
+    .navbar{
+        gap: 360px;
+    }
+    .align-divs{
+        margin-left: 10%;
+    }
+    .footer-links{
+        margin-left: 28%;
+    }
+    .image{
+        float: right;
+        height: 700px;
+        width: 650px;
+        margin-right: 1%;
+    }
+}
