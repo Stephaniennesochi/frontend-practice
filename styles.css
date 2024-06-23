@@ -191,8 +191,9 @@ footer{
     padding-right: 20px;
 }
 @media (max-width:600px){
-
+    
 }
+
 @media (min-width:600px){
     
 }
@@ -232,7 +233,7 @@ footer{
 }
 @media (min-width:1024px){
     .navbar{
-        gap: 130px; 
+        gap: 230px; 
     }
     .nav-links{
         gap: 20px;
@@ -258,10 +259,10 @@ footer{
 }
 @media (min-width:1280px){
     .navbar{
-        gap: 360px;
+        gap: 530px;
     }
     .align-divs{
-        margin-left: 10%;
+        margin-left: 15%;
     }
     .footer-links{
         margin-left: 28%;
