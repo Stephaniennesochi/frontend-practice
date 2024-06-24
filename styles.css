@@ -191,7 +191,11 @@ footer{
     padding-right: 20px;
 }
 @media (max-width:600px){
-    
+    .image{
+        height: 680px;
+        width: 640px;
+        margin-right: 40%;
+    }
 }
 
 @media (min-width:600px){
@@ -259,7 +263,7 @@ footer{
 }
 @media (min-width:1280px){
     .navbar{
-        gap: 530px;
+        gap: 550px;
     }
     .align-divs{
         margin-left: 15%;
