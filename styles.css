@@ -195,22 +195,68 @@ footer{
         font-size: 15px;
     }
     .image{
-        height: 400px;
-        width: 350px;
-        margin-right: 20%;
+        height: 300px;
+        width: 250px;
+        margin-right: 45%;
+    }
+    .main{
+        font-size: 25px;
+    }
+    .entire-sect{
+        margin-left: 2%;
+    }
+    .sub-main{
+        font-size: 18px;
+    }
+    .btn{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .btn_btn{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .sect{
+        font-size: 20px;
+    }
+    .sub-sect, .sub{
+        font-size: 20px;
     }
 }
+
 
 @media (min-width:600px){
     .nav-logo{
         font-size: 15px;
     }
     .image{
-        height: 400px;
-        width: 350px;
+        height: 300px;
+        width: 250px;
         margin-right: 20%;
     }
-
+    .main{
+        font-size: 25px;
+    }
+    .entire-sect{
+        margin-left: 2%;
+    }
+    .sub-main{
+        font-size: 18px;
+    }
+    .btn{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .btn_btn{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .sect{
+        font-size: 20px;
+    }
+    .sub-sect, .sub{
+        font-size: 20px;
+    }
 }
 @media (min-width: 768px){
     .navbar{
