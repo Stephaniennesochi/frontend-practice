@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    background-color: #ffffff;
 }
 li{
     list-style-type: none;
@@ -16,6 +15,9 @@ a{
     border-top: none;
     border-left: none;
     border-right: none;
+}
+.sect-two{
+    background-color: #ffffff;
 }
 .navbar{
     display: flex;
@@ -70,7 +72,7 @@ a{
 }
 .entire-sect{
     margin-left: 13%;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
     text-align: left;
 }
@@ -191,22 +193,40 @@ footer{
     padding-right: 20px;
 }
 @media (max-width:600px){
+    .navbar{
+        width: 600px;
+        gap: 1px;
+    }
+    .nav-links{
+        gap: 10px;
+        margin-top: 16px;
+    }
+    .nav-element{
+        font-size: 16px;
+       
+    }
     .nav-logo{
-        font-size: 15px;
+        margin-left: 19px;
+        font-size: 18px;
+    }
+    .main{
+        font-size: 30px;
+        margin-top: 10%;
+    }
+    .entire-sect{
+        margin-left: 6%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: left;
+    }
+    .sub-main{
+        font-size: 22px;
     }
     .image{
         height: 300px;
         width: 250px;
-        margin-right: 45%;
-    }
-    .main{
-        font-size: 25px;
-    }
-    .entire-sect{
-        margin-left: 2%;
-    }
-    .sub-main{
-        font-size: 18px;
+        margin-right: 3em;
+        margin-top: 2em;
     }
     .btn{
         padding: 8px 10px;
@@ -216,51 +236,103 @@ footer{
         padding: 8px 10px;
         font-size: 14px;
     }
+    .sect-one{
+        width: 600px;
+    }
+    body{
+        width: 600px;
+        margin: 0;
+    }
+    .sect-two{
+        padding-bottom: 4.3em;
+    }
     .sect{
-        font-size: 20px;
+        font-size: 27px;
+        margin-top: 2em;
     }
     .sub-sect, .sub{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .img{
+        width: 140px;
+        
+    }
+    .imgs{
+        width: 100px;
+    }
+    .div-content{
+        font-size: 18px;
+    }
+    .btn-sect{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .divs{
+        width: 470px;
+        height: 130px;
+        margin: 8px;
+        margin-bottom: 36px;
+        margin-top: 1em;
+    }
+    .align-divs{
+        margin-left: 0%;
+    }
+    footer{
+        width: 600px;
+        margin-bottom: 0;
+    }
+    .footer-links{
+        gap: 15px;
+        margin-left: 13%;
+    }
+    .footer-element{
+        font-size: 16px;
+ 
+    }
+    .footer-head{
+        font-size: 18px;
     }
 }
-
-
 @media (min-width:600px){
+    .navbar{
+        gap: 20px; 
+    }
+    .nav-links{
+        gap: 20px;
+        margin-top: 17px;
+    }
     .nav-logo{
-        font-size: 15px;
-    }
-    .image{
-        height: 300px;
-        width: 250px;
-        margin-right: 20%;
-    }
-    .main{
-        font-size: 25px;
-    }
-    .entire-sect{
-        margin-left: 2%;
-    }
-    .sub-main{
+        margin-left: 50px;
         font-size: 18px;
     }
-    .btn{
-        padding: 8px 10px;
-        font-size: 14px;
+    .nav-element{
+        font-size: 16px;
     }
-    .btn_btn{
-        padding: 8px 10px;
-        font-size: 14px;
+    .image{
+        height: 400px;
+        width: 340px;
+        padding-top: 40px;
     }
-    .sect{
-        font-size: 20px;
+    .entire-sect{
+        margin-left: 9%;
+        padding-top: 5%;
     }
-    .sub-sect, .sub{
-        font-size: 20px;
+    .footer-links{
+        margin-left: 15%;
+    }
+    .align-divs{
+        margin-left: 1%;
+    }
+    .divs{
+        height: 140px;
+    }
+    body{
+        margin: 0;
     }
 }
 @media (min-width: 768px){
     .navbar{
-        gap: 20px; 
+        gap: 130px; 
     }
     .nav-links{
         gap: 20px;
@@ -273,10 +345,12 @@ footer{
     .nav-element{
         font-size: 18px;
     }
+    .sect-one{
+        padding-bottom: 1em;
+    }
     .image{
-        height: 680px;
-        width: 640px;
-        margin-right: 20%;
+        height: 400px;
+        width: 340px;
         padding-top: 40px;
     }
     .entire-sect{
@@ -294,7 +368,7 @@ footer{
 }
 @media (min-width:1024px){
     .navbar{
-        gap: 240px; 
+        gap: 260px; 
     }
     .nav-links{
         gap: 20px;
@@ -304,9 +378,8 @@ footer{
         margin-left: 50px;
     }
     .image{
-        height: 680px;
-        width: 640px;
-        margin-right: 40%;
+        height: 550px;
+        width: 500px;
     }
     .entire-sect{
         margin-left: 9%;
@@ -320,7 +393,7 @@ footer{
 }
 @media (min-width:1280px){
     .navbar{
-        gap: 550px;
+        gap: 530px;
     }
     .align-divs{
         margin-left: 15%;
